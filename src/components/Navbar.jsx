@@ -18,16 +18,12 @@ const Navbar = () => {
             <li>Kontakt oss</li>
           </ul>
         </div>
-        <div className="hidden md:flex pr-4">
-          <button>Sign In</button>
-          <button>Sign Up</button>
-        </div>
+
         <div className="md:hidden" onClick={handleClick}>
-            {!nav ? <Bars3Icon className="w-5" /> : <XMarkIcon className="w-5" />}
-         
+          {!nav ? <Bars3Icon className="w-5" /> : <XMarkIcon className="w-5" />}
         </div>
       </div>
-      <ul className={!nav ? 'hidden' : "absolute bg-zinc-200 w-full px-8"}>
+      <ul className={!nav ? "hidden" : "absolute bg-zinc-200 w-full px-8"}>
         <li className="border-b-2 border-zinc-300 w-full">Hjem</li>
         <li className="border-b-2 border-zinc-300 w-full">Om</li>
         <li className="border-b-2 border-zinc-300 w-full">Harver</li>
