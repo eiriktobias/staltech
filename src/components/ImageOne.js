@@ -8,8 +8,8 @@ const ImageOne = () => (
         <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
 <p className="text-2xl">Fantastisk tekst her</p>
 <h1 className="py-3 text-5xl md:text-7xl font-bold">Stor tekst</h1>
-<p className="text-2">Litt mindre tekst</p>
-<button className="py-3">Kontakt oss</button>
+<p className="text-2xl">Litt mindre tekst</p>
+<button className="py-3 px-6 sm:w-[60%] my-4">Kontakt oss</button>
         </div>
 
       </div>

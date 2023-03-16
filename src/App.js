@@ -1,18 +1,18 @@
 import ImageOne from "./components/ImageOne";
 import ImageTwo from "./components/ImageTwo";
-import ImageThree from "./components/ImageThree";
 import TextBox from "./components/TextBox";
 import Navbar from "./components/Navbar";
+import About from "./components/About";
+import Support from "./components/Support";
 
 function App() {
   return (
     <div>
       <Navbar />
       <ImageOne />
-      <TextBox />
+      <About />
       <ImageTwo />
-      <TextBox />
-      <ImageThree />
+      <Support />
       <TextBox />
     </div>
   );
